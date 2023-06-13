@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvsb_subjects=self.webpackChunkvsb_subjects||[]).push([[535],{5641:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Authors","permalink":"/blog/authors"}]}')}}]);
