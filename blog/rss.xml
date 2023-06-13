@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>VŠB Informatika Blog</title>
+        <link>https://makhuta.github.io/blog</link>
+        <description>VŠB Informatika Blog</description>
+        <lastBuildDate>Tue, 13 Jun 2023 15:01:20 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Authors]]></title>
+            <link>https://makhuta.github.io/blog/authors</link>
+            <guid>https://makhuta.github.io/blog/authors</guid>
+            <pubDate>Tue, 13 Jun 2023 15:01:20 GMT</pubDate>
+            <description><![CDATA[List of authors which contributed to this project in any way.]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://makhuta.github.io/blog</id>
+    <title>VŠB Informatika Blog</title>
+    <updated>2023-06-13T15:01:20.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://makhuta.github.io/blog"/>
+    <subtitle>VŠB Informatika Blog</subtitle>
+    <icon>https://makhuta.github.io/img/vsb_informatika_icon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Authors]]></title>
+        <id>https://makhuta.github.io/blog/authors</id>
+        <link href="https://makhuta.github.io/blog/authors"/>
+        <updated>2023-06-13T15:01:20.000Z</updated>
+        <summary type="html"><![CDATA[List of authors which contributed to this project in any way.]]></summary>
+        <author>
+            <name>Dr00g</name>
+            <uri>https://github.com/Dr00gy</uri>
+        </author>
+        <author>
+            <name>adaxiik</name>
+            <uri>https://github.com/adaxiik</uri>
+        </author>
+    </entry>
+</feed>
