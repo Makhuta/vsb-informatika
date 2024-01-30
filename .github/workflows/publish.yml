@@ -23,7 +23,7 @@ jobs:
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: git@github.com:Makhuta/vsb-informatika.git
-          BRANCH: pages
+          BRANCH: gh-pages
           FOLDER: build # The directory where your assets are generated
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
           MESSAGE: "Build: ({sha}) {msg}" # The commit message
