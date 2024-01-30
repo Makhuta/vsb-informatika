@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import clsx from 'clsx';
 import styles from './styles.module.css';
-
-import DeadlinesList1Year from '../../../static/jsons/deadlines/deadlines_list_1_year.json';
-import DeadlinesList2Year from '../../../static/jsons/deadlines/deadlines_list_2_year.json';
-import DeadlinesList3Year from '../../../static/jsons/deadlines/deadlines_list_3_year.json';
 
 function returningDate(timestamp) {
   var date = new Date(timestamp * 1000)
@@ -23,7 +18,7 @@ function filteringDeadlines(deadlines) {
   return output.length == 0 ? [{subject: "Not yet added", description: "Nothing to worry about", timestamp: Date.now() / 1000}] : output;
 }
 
-export default function HomepageFeatures() {
+export default function HomepageFeatures(DeadlinesList1Year, DeadlinesList2Year, DeadlinesList3Year) {
   return (
     <section className={styles.featuresMain}>
 
@@ -85,24 +80,6 @@ export default function HomepageFeatures() {
           ))}
         </div>
       </div>
-
-
-
-
-
-
-
-
     </section >
   );
 }
-
-
-/*
-<div className="text--center">
-  <img className={styles.featureSvg} src={image.imgSrc} alt={image.title} />
-</div>
-<div className="text--center padding-horiz--md">
-  <h3>{image.title}</h3>
-</div>
-*/

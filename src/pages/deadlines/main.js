@@ -5,7 +5,11 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import DeadlineFeatures from '@site/src/components/DeadlineFeatures';
 
-import styles from './deadlines.module.css';
+import DeadlinesList1Year from './lists/deadlines_list_1_year.json';
+import DeadlinesList2Year from './lists/deadlines_list_2_year.json';
+import DeadlinesList3Year from './lists/deadlines_list_3_year.json';
+
+import styles from './main.module.css';
 
 function DeadlineHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -21,13 +25,14 @@ function DeadlineHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
+  const deadlines = DeadlineFeatures(DeadlinesList1Year, DeadlinesList2Year, DeadlinesList3Year)
   return (
     <Layout
       title={`${siteConfig.title}`}
       description="<head />">
       <DeadlineHeader />
       <main>
-        <DeadlineFeatures />
+        {deadlines}
       </main>
     </Layout>
   );

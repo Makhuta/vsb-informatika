@@ -133,7 +133,7 @@ const config = {
                 
                 {
                     label: "Deadlines",
-                    to: "deadlines",
+                    to: "deadlines/main",
                     position: "left"
                 },
                 {
