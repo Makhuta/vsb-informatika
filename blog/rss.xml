@@ -4,7 +4,7 @@
         <title>VŠB Informatika Blog</title>
         <link>https://makhuta.github.io/vsb-informatika/blog</link>
         <description>VŠB Informatika Blog</description>
-        <lastBuildDate>Tue, 30 Jan 2024 14:53:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jan 2024 15:26:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>cs</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Authors]]></title>
             <link>https://makhuta.github.io/vsb-informatika/blog/authors</link>
             <guid>https://makhuta.github.io/vsb-informatika/blog/authors</guid>
-            <pubDate>Tue, 30 Jan 2024 14:53:07 GMT</pubDate>
+            <pubDate>Tue, 30 Jan 2024 15:26:38 GMT</pubDate>
             <description><![CDATA[List of authors which contributed to this project in any way.]]></description>
         </item>
     </channel>
