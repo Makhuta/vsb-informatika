@@ -46,13 +46,13 @@ const config = {
                     rehypePlugins: [katex],
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/Makhuta/vsb-informatika-source/tree/main/',
+                    editUrl: 'https://github.com/Makhuta/vsb-informatika/tree/source/',
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/Makhuta/vsb-informatika-source/tree/main/',
+                    editUrl: 'https://github.com/Makhuta/vsb-informatika/tree/source/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
