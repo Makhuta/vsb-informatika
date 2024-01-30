@@ -1,0 +1,29 @@
+name: Build and push to Makhuta/vsb-informatika
+
+on:
+  push:
+    branches:
+      - source
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and Push
+    steps:
+      - name: git-checkout
+        uses: actions/checkout@v2
+
+      - name: Install all dependencies
+        run: npm i
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: git@github.com:Makhuta/vsb-informatika.git
+          BRANCH: pages
+          FOLDER: build # The directory where your assets are generated
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          MESSAGE: "Build: ({sha}) {msg}" # The commit message

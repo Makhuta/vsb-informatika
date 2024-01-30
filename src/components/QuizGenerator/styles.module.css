@@ -1,0 +1,89 @@
+button {
+  background-color: var(--ifm-color-primary);
+  border-radius: var(--ifm-code-border-radius);
+  padding: 2px;
+  border: 2px solid var(--ifm-color-primary-darkest);
+  color: black;
+  font-size: min(25px, 1.25vw);
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.unanswered {
+  background-color: grey;
+}
+
+.right {
+  background-color: green;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.quizWindow {
+  margin: auto;
+  width: 50%;
+}
+
+.quizQuestion {
+  width: calc(100% - 4px);
+  margin-bottom: 4px;
+  border-radius: var(--ifm-code-border-radius);
+  border: 2px solid var(--ifm-color-primary-darkest);
+}
+
+.quizValues {
+  display: inline-flex;
+  width: 100%;
+}
+
+.quizValues > text, input {
+  vertical-align: top;
+}
+
+text, .quizValues {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 10px;
+}
+
+image, .quizValues {
+  max-width: 50%;
+}
+
+.quizControlls {
+  margin: auto;
+  width: 50%;
+  height: 100px;
+  display: flex;
+}
+
+.quizControlls > button:first-child, .quizControlls > button:last-child {
+  width: 15%;
+}
+
+.quizResult {
+  width: calc(70% - 4px);
+  text-align: center;
+  margin-top: 15px;
+}
+
+.quizControlls {
+  margin-bottom: 4px;
+}
+
+.quizQuestionImage > img {
+  max-height: 200px;
+}
+
+.quizQuestionImage {
+  margin: auto;
+  width: 50%;
+}

@@ -1,0 +1,27 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  object-fit: contain;
+  height: 300px;
+  width: 300px;
+}
+
+.sliderContainer {
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 100vw;
+  transform-origin: center;
+}
+
+.slide {
+  flex: 0 0 calc(100% / 3);
+  transition: transform 1s;
+}
