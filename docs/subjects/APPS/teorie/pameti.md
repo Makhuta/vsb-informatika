@@ -3,22 +3,22 @@ sidebar_position: 6
 title: Paměti
 ---
 
-### Dle jakých kritérií či vlastností se dělí paměti počítačů?
+### Dle jakých kritérií či vlastností se dělí paměti počítačů? {#memory}
 - Typu přístupu
-    - [RAM](## "Random Access Memory") - libovolný přístup
-    - [SAM](## "Serial Access Memory") - Seriový přístup
+    - [RAM](#memory "Random Access Memory") - libovolný přístup
+    - [SAM](#memory "Serial Access Memory") - Seriový přístup
     - Speciální (paměť typu zásobník, fronta..)
 - Možnosti zápisu/čtení
-    - [RWM](## "Read Write Memory") - pro zápis a čtení
-    - [ROM](## "Read Only Memory") - pouze pro čtení
+    - [RWM](#memory "Read Write Memory") - pro zápis a čtení
+    - [ROM](#memory "Read Only Memory") - pouze pro čtení
     - Kombinované
-        - [NVRAM](## "Non Volatile RAM")
-        - [WOM](## "Write Only Memory")
-        - [WORM](## "Write Once - Ready Many times memory") - optické disky
+        - [NVRAM](#memory "Non Volatile RAM")
+        - [WOM](#memory "Write Only Memory")
+        - [WORM](#memory "Write Once - Ready Many times memory") - optické disky
 - Principu elementární buňky
-    - [SRAM](## "Static RAM") - statické paměti
-    - [DRAM](## "Dynamic RAM") - dynamické paměti
-    - [PROM](## "Programable ROM"), [EPROM](## "Erasable PROM"), [EEPROM](## "Electrically Erasable PROM"), FLASH - programovatelné paměti
+    - [SRAM](#memory "Static RAM") - statické paměti
+    - [DRAM](#memory "Dynamic RAM") - dynamické paměti
+    - [PROM](#memory "Programable ROM"), [EPROM](#memory "Erasable PROM"), [EEPROM](#memory "Electrically Erasable PROM"), FLASH - programovatelné paměti
 - Uchování informace po odpojení napájení
     - Non-Volatile - Zachovají si informaci i po odpojení napájení
     - Volatile - Ztráci informaci po odpojení napájení (DRAM a SRAM)
@@ -64,20 +64,20 @@ Stavba DRAM buňky:
 
 
 
-### Jaké typy pamětí si udržují svůj obsah i po odpojení napájení?
-- [(Nevolatilní)](## "Non-Volatile")
-- [ROM](## "Read Only Memory")
+### Jaké typy pamětí si udržují svůj obsah i po odpojení napájení? {#memory-power-disconected}
+- [(Nevolatilní)](#memory-power-disconected "Non-Volatile")
+- [ROM](#memory-power-disconected "Read Only Memory")
     - Informace zapisuje výrobce (je složená z odporů, které výrobce přepálí.. neporušené prvky pak vedou proud a je v nich minimální napětí.. log. 0)
     - Doba pamatování není ohraničená
-- [PROM](## "Programable ROM")
+- [PROM](#memory-power-disconected "Programable ROM")
     - Informace se vypalijí pomocí "programátoru"
     - Lze zapsat jen jednou
-- [EPROM](## "Erasable PROM")
+- [EPROM](#memory-power-disconected "Erasable PROM")
     - Uchovává informaci díky kvalitně izolovaném el. napětí
     - K naprogramování je potřeba až 50ms trvající pulz o 5V
     - Lze vymazat pomocí UV záření
     - Doba pamatování 10 až 20 let
-- [EEPROM](## "Electrically Erasable PROM")
+- [EEPROM](#memory-power-disconected "Electrically Erasable PROM")
     - Zápis stějně jak EPROM
     - Mazální pomocí el. pulzu s obrácenou polaritou
     - Doba pamatování 10 až 20 let
@@ -96,17 +96,17 @@ Stavba DRAM buňky:
 
 
 
-### Jaké speciální typy pamětí se používají?
-- [VRAM](## "Video RAM")
+### Jaké speciální typy pamětí se používají? {#memory-types}
+- [VRAM](#memory-types "Video RAM")
     - Dvouportová
     - Zvýšené přenosové pásmo
-- [WRAM](## "Window RAM (nemá nic společného s Windows operačním systémem)")
+- [WRAM](#memory-types "Window RAM (nemá nic společného s Windows operačním systémem)")
     - O 25% větší přenosové pásmo než VRAM
     - Nabízí double-buffering
-- [SGRAM](## "Synchroní Grafická RAM")
-    - Funguje jako [SDRAM](## "Synchronous Dynamic RAM")
-    - Ale [SDRAM](## "Synchronous Dynamic RAM") je optimalizována pro kapacitu a [SGRAM](## "Synchronous Graphic RAM") pro přenos dat
-- [FIFO](## "First In First Out") paměti (fronta)
+- [SGRAM](#memory-types "Synchroní Grafická RAM")
+    - Funguje jako [SDRAM](#memory-types "Synchronous Dynamic RAM")
+    - Ale [SDRAM](#memory-types "Synchronous Dynamic RAM") je optimalizována pro kapacitu a [SGRAM](#memory-types "Synchronous Graphic RAM") pro přenos dat
+- [FIFO](#memory-types "First In First Out") paměti (fronta)
     - Bez přesouvání obsahu
     - S přesouváním obsahu
 - Cache paměti
@@ -122,14 +122,14 @@ Stavba DRAM buňky:
 
 
 
-### Jak se u pamětí detekují a opravují chyby?
+### Jak se u pamětí detekují a opravují chyby? {#error-fixing}
 - SRAM je spolehlivější než DRAM
 - Tvrdé chyby - opakující se 
 - Měkké chyby - Neopkající se .. těžší rozpoznat
 - Kontrola Parity
     - dorovnává se na lichý počet jedniček do 9. bitu
     - neopravuje, jen detekuje chybu (když je počet jedniček sudý)
-- [ECC](## "Error Correction Code")
+- [ECC](#error-fixing "Error Correction Code")
     - Detekuje více bitové chyby
     - Schopen opravit 1 bitovou chybu
     - Nutnost "Wait State" => zpomalení 2-3%

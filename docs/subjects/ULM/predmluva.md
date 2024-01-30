@@ -124,7 +124,7 @@ Význam jednoduchých výroků redukuje VL na pravdu (1) a nepravdu (0). Výroko
 **Tautologie:** Každé ohodnocení je modelem. <br />
 **Nesplnitelná formule / kontradikce:** Nemá ani jeden model. <br />
 **Splnitelná množina formulí:** Existuje-li ohodnocení, které je modelem každé formule.
-[Splnitelnost v PL](#d-splnitelnost--model-PL1) <br />
+[Splnitelnost v PL](#d-splnitelnost-model-PL1) <br />
 [Splnitelnost ve výrokové logice](#f-splnitelnost-vl-v-rezolučce) <br /><br /><br />
 
 
@@ -156,7 +156,7 @@ Konjunktivní normální forma (KNF) se v rezoluční metodě nazývá klauzulá
 * Důkaz, že množina formulí je nesplnitelná: musíme u všech dokázat, že to jsou kontradikce. <br />
 
 Odvodit, co vyplývá z \{A1,...,An} znamená odvodit všechny rezolventy. Používané pro AI. Máme formuli, na kterou používáme rezoluční metodu. Každé jeji upravené části odvozují další skutečnosti (cv. 4, příklad 2. v RES).
-[Splnitelnost v PL](#d-splnitelnost--model-PL1) <br />
+[Splnitelnost v PL](#d-splnitelnost-model-PL1) <br />
 [Splnitelnost v logice - základy](#c-splnitelnost-formulí-tautologie-kontradikce-model) <br /><br /><br />
 
 
@@ -256,7 +256,7 @@ Pokud nevíme, co znamenají symboly v PL (P, Q, R,...), tak nemá smysl zjišť
 [Sémantika ve VL](#b-sémantika-význam-formulí) <br /><br /><br />
 
 
-### d) Splnitelnost / model PL1
+### d) Splnitelnost / model PL1 {#d-splnitelnost-model-PL1}
 Spojené se sémantikou. Model je interpretace (skládá se z univerza, relací a funkcí), ve které vše dává smysl.
 Např.: U - všichni lidi
 R(x) - x jsou členi univerza, třeba: jsou savci. PLATÍ!

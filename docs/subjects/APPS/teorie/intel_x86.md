@@ -16,17 +16,17 @@ title: x86 Intel historie
 - Sběrnice zúžená na 8bit
 - Jinak stejné jak 8086
 
-### 80186
+### 80186 {#80186}
 
 - Navržen pro embedded (vestavěná) zařízení
-- Má [DMA](## "Direct Memory Access")
+- Má [DMA](#80186 "Direct Memory Access")
 - Vyráběn 25 let
 
-### 80286
+### 80286 {#80286}
 
 - Lze přepnout do Protected modu (4 úrovně oprávnění)
 - Real mode (pro zpětnou kompatibilitu, RM programy nemůžou fungovat v novém PM)
-- má [MMU](## "Memory Management Unit")
+- má [MMU](#80286 "Memory Management Unit")
 
 ### 80386dx a sx
 
@@ -50,13 +50,13 @@ title: x86 Intel historie
 - L1 rozdělena na kod a data
 - Predikce skoků
 
-### Pentium Pro
+### Pentium Pro {#pentium-pro}
 
 - ZÁSADNÍ technologický zlom
 - Pro servery ($\Rarr$ velký výkon (zhruba o 50% víc než pentium) a cena)
 - L2 přímo na procesoru
 - Fetch/Decode jednotka dekoduje x86 instrukce na 118bit RISC instrukce (které intel pojmenoval jako mikro-operace)
-- Instrukce jsou po dekodování uloženy do [banky instrukcí](## "Instruction pool"), vejde se tam až 40 instrukcí
+- Instrukce jsou po dekodování uloženy do [banky instrukcí](#pentium-pro "Instruction pool"), vejde se tam až 40 instrukcí
 - Dispatch/Execute jednotka si může vybírat instrukce mimo pořadí z poolu (Out of order execute)
 - 10ti úrovňové zřetězení
 - Predikce skoků si pamatuje 512 hodnot

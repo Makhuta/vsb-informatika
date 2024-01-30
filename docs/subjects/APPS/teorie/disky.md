@@ -39,18 +39,18 @@ title: Disky
 
 
 
-### Jaký je princip ukládání dat u optických pamětí ?
+### Jaký je princip ukládání dat u optických pamětí ? {#optic-princip}
 ![optic](../imgs/optic.png)
 
 - Materiál - polykarbonát
 - Záznam pomocí pitů a landu (jamky a pevniny)
 - Čtecí senzor rozpozná změnu tak, že když světlo narazí na pit, rozptýlí se s posunutou peridodou
 - Zapisuje se laserem
-- Většinou [WORM](## "Write Once Read Many time")
+- Většinou [WORM](#optic-princip "Write Once Read Many time")
 
 
 
-### [CD-ROM](## "Compact Disk Read Only Memory")
+### [CD-ROM](#cd "Compact Disk Read Only Memory") {#cd}
 - Rychlejší než diskety
 - Přehrávač musí měnit rychlost disku, aby zajistil stálou rotaci
 - Čtení pomocí IR laseru
@@ -58,5 +58,5 @@ title: Disky
 
 
 
-### [DVD](## "Digital Versatile Disc")
+### [DVD](#dvd "Digital Versatile Disc") {#dvd}
 - Vesměs vysokokapacitní CD
