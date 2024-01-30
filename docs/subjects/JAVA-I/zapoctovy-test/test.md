@@ -142,7 +142,7 @@ sidebar_position: 1
 - ​<mark>b) Tato konstrukce umoznuje, aby promenná ‹var> byla typu Collection nebo pole.</mark>
 - c) Tato konstrukce vyzaduje, aby jako «Type> byl pouzit typ Comparable.
 - d) Tato konstrukce vyzaduje, aby promenná ‹var> byla typu Iterator nebo pole.
-- e) Tato konstrukce vyzaduje, aby promenná <el› byla vedy primitivniho typu, protoze pracuje s poli.
+- e) Tato konstrukce vyzaduje, aby promenná \<el\› byla vedy primitivniho typu, protoze pracuje s poli.
 
 ### Necht Osoba je trida. Vyberte pravdivé tvrzeni:
 

@@ -94,7 +94,7 @@ const QuizGenerator = (questionsData, page, numberToGenerate = 10) => {
           <div className={styles.quizWindow}>
             {questions.map((question, index) => (
               <div key={index} class={styles.quizQuestion + ' ' + resultState[index]}>
-                {question.question.text === "" ? "" : <h3>{parser(question.question.text)}</h3>}
+                {question.question.text === "" ? "" : <h3 class={styles.questionText}>{parser(question.question.text)}</h3>}
                 {question.question.image === "" ? "" :
                   <div className={styles.quizQuestionImage}>
                     <img

@@ -7,7 +7,7 @@ button {
   font-size: min(25px, 1.25vw);
 }
 
-h3 {
+.questionText {
   text-align: center;
 }
 

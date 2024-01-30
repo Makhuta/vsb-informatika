@@ -29,11 +29,11 @@ title: Otázky
 💚 Je tabulková metoda a metoda sémantickým sporem (rozumíme pravdivostní tabulku nebo důkaz sporem) <br />
 💚 Ověřuje platnost pomocí valuací výrokových proměnných.
 
-### 4) Mějme množiny A = {1,2,3}, B = {b} a relaci R. Která z následujících tvrzení jsou platná?
-💚 Pokud relace R je definována jako podmnožina A x B: {[1,b], [2,b], [3, b]}, pak se jedná o surjektivní zobrazení <br />
-💚 Pokud relace R je def jako podmnožina BxA: {[b,1],[b,2],[b,3]},nejedná o zobrazení. (pozor! místo A x B je tu B x A) <br />
+### 4) Mějme množiny A = \{1,2,3}, B = \{b} a relaci R. Která z následujících tvrzení jsou platná?
+💚 Pokud relace R je definována jako podmnožina A x B: \{[1,b], [2,b], [3, b]}, pak se jedná o surjektivní zobrazení <br />
+💚 Pokud relace R je def jako podmnožina BxA: \{[b,1],[b,2],[b,3]},nejedná o zobrazení. (pozor! místo A x B je tu B x A) <br />
 💚 Pokud relace R je definována jako podmnožina B x A $\cup$ A x B a jedná se o symetrickou relaci. Pokud je v relaci R dvojice [1,b], pak se v relaci R nachází rovněž dvojice [b,1] <br />
-💚 Pokud relace R je definována jako podmnožina A x B: {[1,b], [2,b], [3, b]}, pak se nejedná o injektivní zobrazení <br />
+💚 Pokud relace R je definována jako podmnožina A x B: \{[1,b], [2,b], [3, b]}, pak se nejedná o injektivní zobrazení <br />
 💚 Pokud relace R je def jako podmnožina BxA sjednoceno s AxB a jedná se o symetrickou relaci, potom je v relaci R dvojice [1,b], pak se v relaci R nachází rovněž dvojice [b,1].
 
 ### 5) Které z tvrzení platí pro formuli $\forall x \forall y$ [P(x,y) $\supset$ Q(f(x),y)]
@@ -42,7 +42,7 @@ title: Otázky
 💚 Je splnitelná, neboť existuje její model. <br />
 💚 Má jako svůj model například tuto interpretační strukturu: <br />
 U = N (množina přir. čísel), <br />
-P={[x,y]|x=y}, Q={[x,y]|x>=y}, <br />
+P=\{[x,y]|x=y}, Q=\{[x,y]|x>=y}, <br />
 f' ... druhá mocnina. <br />
 💚 Relace Q funkční symbol se interpretuje jako totální funkce. <br />
 💚 Funkční symbol se interpretuje jako totální funkce.
@@ -93,7 +93,7 @@ Judy je krásná. (platí pro PL a ne VL)
 ### 11)	Která z následujících tvrzení jsou pravdivá?
 💚 Relace je podmnožina kartézského součinu <br />
 💚 Následující relace nad celými čísly jsou totální funkce: sčítání, násobení, rozdíl (dělení je parciální) <br />
-💚 Všechny podmnožiny relace A = {<1, 2>, <2, 4>, <3, 6>} jsou relacemi <br />
+💚 Všechny podmnožiny relace A = \{\<1, 2>, \<2, 4>, \<3, 6>} jsou relacemi <br />
 💚 Funkce dělení na celých číslech je parciální <br />
 💚 Pokud v metodě přirozené dedukce zavedeme hypotézu H a odvodíme z ní formuli A, pak jako řádný krok důkazu musíme zavést formuli $H  \supset  A$ <br />
 💚 Princip unifikace v obecné (…), kdy je $\vdash \forall x Px \supset P(X/term)$ <br />
@@ -113,7 +113,7 @@ Judy je krásná. (platí pro PL a ne VL)
 💥 konjunkce, disjunkce <br />
 💥 konjunkce, implikace <br />
 💥 konjunkce, disjunkce, implikace, ekvivalence <br />
-(víme, že ${\neg , \lor , \land , \Rightarrow}$ tvoří úplný systém logických spojek.. nyní si stačí uvědomit, že platí: $(a \Rightarrow b)$ |=| $(\neg a \land  b)$ a $(a \lor  b)$ |=| $\neg (\neg a \land  \neg b)$.. 3. množina $\vartriangle = {\neg , \lor }$ tvoří úplný systém logických spojek - jediné správné kombinace jsou: $(\neg ,\rightarrow)$, $(\neg ,\lor )$, $(\neg ,\land )$, SOURCE: MUNI)
+(víme, že $\{\neg , \lor , \land , \Rightarrow}$ tvoří úplný systém logických spojek.. nyní si stačí uvědomit, že platí: $(a \Rightarrow b)$ |=| $(\neg a \land  b)$ a $(a \lor  b)$ |=| $\neg (\neg a \land  \neg b)$.. 3. množina $\vartriangle = \{\neg , \lor }$ tvoří úplný systém logických spojek - jediné správné kombinace jsou: $(\neg ,\rightarrow)$, $(\neg ,\lor )$, $(\neg ,\land )$, SOURCE: MUNI)
 
 ### 13) Označte, které z následujících formulí jsou logicky pravdivé.
 💚 $[\forall xP(x) \land  \forall xQ(x)]  \supset  \forall x[P(x) \land  Q(x)]$ (přesouvání kvantifikátoru jako krok 6 skolemizace - zákon distribuce kvantifikátorů!!) <br />
@@ -175,7 +175,7 @@ Judy je krásná. (platí pro PL a ne VL)
 💚 Při použití obecné rezoluční metody obecně vedeme důkaz nepřímo. <br />
 💚 Sound argument je takový, jehož premisy jsou pravdivé, tedy i závěr je pravdivý. <br />
 💚 Pokud je množina A vlastní podmnožina množiny B, pak B má aspoň jeden prvek, který neleží v A. <br />
-💚 Všechny podmnožiny relace A = {<1,2>,<2,4>,<3,6>} jsou relacemi. <br />
+💚 Všechny podmnožiny relace A = \{\<1,2>,\<2,4>,\<3,6>} jsou relacemi. <br />
 💚 Operaci rozdíl libovolných dvou množin lze vyjádřit pomocí operace doplňku na těchto dvou množinách. <br />
 💚 Potenční množina množiny M je množina všech podmnožin množiny M, tedy mezi její prvky patří i množina M. <br />
 💚 Pokud v metodě přirozené dedukce zavedeme hypotézu H a odvodíme z ní formuli A, pak jako řádný krok důkazu musíme zavést formuli $H  \supset  A$ <br />
@@ -215,19 +215,19 @@ Judy je krásná. (platí pro PL a ne VL)
 💥 Ověřování platnosti úsudků v PL1, pokud obsažené predikáty jsou aspoň binární.
 
 ### 20) Nechť $A, B \models C$ a $A, C \models D$, pak:
-💚 Formule A je pravdivá ve všech modelech množiny formulí {B, C}. <br />
-💚 Formule D je pravdivá v každém modelu množiny formulí {A, C}. <br />
+💚 Formule A je pravdivá ve všech modelech množiny formulí \{B, C}. <br />
+💚 Formule D je pravdivá v každém modelu množiny formulí \{A, C}. <br />
 💚 $A,C \models C$ <br />
 💥 Pokud jsou formule A, B nepravdivé, pak je i C nepravdivé. <br />
 💥 Když není pravdivá formule D, tak není pravdivá ani A ani B.
 
 ### 21) Nechť platí: $A, B, C \models D$, pak:
-💚 D je formule pravdivá v každém modelu množiny formulí {A, B, C}. <br />
+💚 D je formule pravdivá v každém modelu množiny formulí \{A, B, C}. <br />
 💚 $A, B \models D$ <br />
 💚 $A, B, C, E \models D$ <br />
 💚 Nemůže nastat případ, kdy formule A, B, C jsou v určené interpretaci pravdivé a formule D není <br />
 💚 Pokud je D nepravdivá formule, pak je alespoň jedna formule z A, B, C nepravdivá <br />
-💥 Formule D nemusí být pravdivá v každém modelu množiny formulí {A, B, C}, avšak musí být pravdivá v aspoň jednom. <br />
+💥 Formule D nemusí být pravdivá v každém modelu množiny formulí \{A, B, C}, avšak musí být pravdivá v aspoň jednom. <br />
 💥 Množina formulí $(A, B, C, \neg D)$ má model. <br />
 💥 A, B, C, D jsou nutně pravdivé
 
@@ -314,7 +314,7 @@ Judy je krásná. (platí pro PL a ne VL)
 💚 Právě když existuje ohodnocení e proměnných takových, že $F[e]$ je pravdivá v dané interpretační struktuře <br />
 💚 Právě když existuje ohodnocení e promenných takový, že formule F je v tomto ohodnocení v dané interpretaci pravdivá
 
-### 31) Algebraickou strukturu $(R \ {0}, *)$ s operací násobení Nad množinou reálných čísel.
+### 31) Algebraickou strukturu $(R \ \{0}, *)$ s operací násobení Nad množinou reálných čísel.
 💚 Operace * je uzavřená na nosiči <br />
 💚 Struktura $(Z\{0}, *)$ je podgrupou této struktury <br />
 💚 Operace * je komutativní

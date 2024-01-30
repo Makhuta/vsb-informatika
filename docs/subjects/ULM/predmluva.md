@@ -129,7 +129,7 @@ Význam jednoduchých výroků redukuje VL na pravdu (1) a nepravdu (0). Výroko
 
 
 ### d) Normální formy
-Každé formuli přísluší právě jedna pravdivostní funkce (pravdivostní tabulka). Každé jedné takové funkci pak přísluší nekonečně mnoho formulí, které jsou navzájem ekvivalentní (A <=> B, A <=> C, B <=> D, C <=> D, atd.). 🔵 DŮLEŽITÉ!! Nesmíme plést tyto ekvivalence: <=> (značí úpravu) s $\equiv$ (značí stejné modely / splnitelnost - u otázek na to opět upozorním)!! Platí však A <=> B, právě když formule $A \equiv B$ je tautologie. <br />
+Každé formuli přísluší právě jedna pravdivostní funkce (pravdivostní tabulka). Každé jedné takové funkci pak přísluší nekonečně mnoho formulí, které jsou navzájem ekvivalentní (A  \<=\> B, A \<=\> C, B \<=\> D, C \<=\> D, atd.). 🔵 DŮLEŽITÉ!! Nesmíme plést tyto ekvivalence: \<=\> (značí úpravu) s $\equiv$ (značí stejné modely / splnitelnost - u otázek na to opět upozorním)!! Platí však A \<=\> B, právě když formule $A \equiv B$ je tautologie. <br />
 **Element:** = literál. Literál je výrokový symbol nebo jeho negace (p, $\neg p$). <br />
 **Elementární konjunkce (EK) / disjunkce (ED):** konjunkce / disjunkce literálů (celkem useless). <br />
 **Úplná elementární konjunkce (UEK) / disjunkce (UED):** EK nebo ED, kde se každý symbol z množiny vyskytuje jen jednou. Useful jen pro hledání UDNF / UKNF. <br />
@@ -147,7 +147,7 @@ Konjunktivní normální forma (KNF) se v rezoluční metodě nazývá klauzulá
 
 *	R(f) - konjunktivní rozšíření formule F o všechny rezolventy. Tedy, všechny možné kombinace rezoluce.
 *	R0(F) = Ri(F) = R(Ri-1(F)) - rezoluční uzávěr formule F.
-*	Platí, že: Ri(F) <=> F <br /><br /><br />
+*	Platí, že: Ri(F) \<=\> F <br /><br /><br />
 
 
 ### f) Splnitelnost VL v rezolučce
@@ -155,7 +155,7 @@ Konjunktivní normální forma (KNF) se v rezoluční metodě nazývá klauzulá
 * Nepřímý důkaz (naše "normální" rezoluční metoda), že A je tautologie: $\neg A$ je kontradikce.
 * Důkaz, že množina formulí je nesplnitelná: musíme u všech dokázat, že to jsou kontradikce. <br />
 
-Odvodit, co vyplývá z {A1,...,An} znamená odvodit všechny rezolventy. Používané pro AI. Máme formuli, na kterou používáme rezoluční metodu. Každé jeji upravené části odvozují další skutečnosti (cv. 4, příklad 2. v RES).
+Odvodit, co vyplývá z \{A1,...,An} znamená odvodit všechny rezolventy. Používané pro AI. Máme formuli, na kterou používáme rezoluční metodu. Každé jeji upravené části odvozují další skutečnosti (cv. 4, příklad 2. v RES).
 [Splnitelnost v PL](#d-splnitelnost--model-PL1) <br />
 [Splnitelnost v logice - základy](#c-splnitelnost-formulí-tautologie-kontradikce-model) <br /><br /><br />
 
@@ -180,21 +180,21 @@ Odvodit, co vyplývá z {A1,...,An} znamená odvodit všechny rezolventy. Použ�
 
 ## 3) 🔵 Množiny
 ### a) Co je množina?
-Množina je soubor prvků a je svými prvky plně určena; množinu s prvky a, b, c značíme: {a, b, c}. <br />
+Množina je soubor prvků a je svými prvky plně určena; množinu s prvky a, b, c značíme: \{a, b, c}. <br />
 Prvkem množiny může být opět množina. Množina také nemusí mít žádné prvky: $\varnothing$. <br />
-Příklady množin: $\varnothing$, {a,b}, {b,a},{a,b,a}, {{a,b}}, {a,{b,a}}, { $\varnothing$ , { $\varnothing$ },{{ $\varnothing$ }}} <br />
+Příklady množin: $\varnothing$, \{a,b}, \{b,a}, \{a,b,a}, \{\{a,b}}, \{a,\{b,a}}, \{ $\varnothing$ , \{ $\varnothing$ },\{\{ $\varnothing$ }}} <br />
 Množiny jsou identické, právě tehdy a jen tehdy, když mají stejné prvky (princip extenzionality). <br /><br /><br />
 
 
 ### b) Důležité vztahy a operace (a můžeme nahradit čímkoliv, jen nechat závorky a symboly)
-*	$a \in$ {a, b}
-*	$a \notin$ {{a, b}} ALE {a,b} $\in$ {{a,b}}
-*	$\varnothing \in$ { $\varnothing$ , { $\varnothing$ },{{ $\varnothing$ }}}, ale neleží pro žádné a,b,c..
-*	{a, b} = {b, a} = {a,b,a} ALE {a,b} $\ne$ {{a, b}} $\ne$ {a, {b, a}}
+*	$a \in$ \{a, b}
+*	$a \notin$ \{\{a, b}} ALE \{a,b} $\in$ \{\{a,b}}
+*	$\varnothing \in$ \{ $\varnothing$ , \{ $\varnothing$ },\{\{ $\varnothing$ }}}, ale neleží pro žádné a,b,c..
+*	\{a, b} = \{b, a} = \{a,b,a} ALE \{a,b} $\ne$ \{\{a, b}} $\ne$ \{a, \{b, a}}
 *	$\varnothing \notin \varnothing$ ALE $\varnothing \subseteq \varnothing$ (prázdná množina je podmnožinou každé množiny, i samo sebou)
-*	{a} $\subseteq$ {a} (každá množina je svou podmnožinou)
-*	$\varnothing \subseteq$ {a} ALE $\varnothing \notin$ {a}
-*	{a} $\nsubseteq$ {{a}}
+*	\{a} $\subseteq$ \{a} (každá množina je svou podmnožinou)
+*	$\varnothing \subseteq$ \{a} ALE $\varnothing \notin$ \{a}
+*	\{a} $\nsubseteq$ \{\{a}}
 
 * Podmnožina: $\subseteq$ - A je podmnožinou B, právě když A $\cup$ B = B A ZÁROVEŇ právě když A $\cap$ B = B. V A jsou prvky z B.
 * Vlastní podmnožina: $\subset$ - A je vlastní podmnožinou B, právě když A je podmnožinou B, ale A se nerovná B (B má vlastní prvky, které nejsou v A).
@@ -202,9 +202,9 @@ Množiny jsou identické, právě tehdy a jen tehdy, když mají stejné prvky (
 * Sjednocení: $\cup$
 * Rozdíl: \
 * Doplněk (komplement): Doplněk A k M. Nechť A je podmnožinou M, výsledek = M \ A
-* Kartézský součin: NOTE! <a,b> se nerovná <b,a>. U n-tic záleží na pořadí a prvky se mohou opakovat (narozdíl od množin)
-* Zobecnění: A x ... x A - množina n-tic. Také můžeme značit $A^{n}$.
-* Potenční množina: P(A) = {B | B $\subseteq$ A}, značíme také $2^{A}$. Krátce, do potenční množiny libovolné množiny patří: Ø, všechny prvky množiny individuálně a všemožné kombinace prvků mezi sebou v množině. <br />
+* Kartézský součin: NOTE! \<a,b> se nerovná \<b,a>. U n-tic záleží na pořadí a prvky se mohou opakovat (narozdíl od množin)
+* Zobecnění: A x ... x A - množina n-tic. Také můžeme značit $A^\{n}$.
+* Potenční množina: P(A) = \{B | B $\subseteq$ A}, značíme také $2^\{A}$. Krátce, do potenční množiny libovolné množiny patří: Ø, všechny prvky množiny individuálně a všemožné kombinace prvků mezi sebou v množině. <br />
 
 🔵 **Kardinalita / mohutnost:** Mohutnost množiny (také kardinalita množiny) je pojmem teorie množin vyjadřující velikost, počet prvků u konečných, ale i nekonečných množin. Značíme |M|. <br />
 |A| = |B| právě když existuje bijekce f (níže): A $\to$ B <br />
@@ -213,7 +213,7 @@ Množiny jsou identické, právě tehdy a jen tehdy, když mají stejné prvky (
 
 ### c) Relace a funkce
 * Relace mezi množinami A, B je podmnožina Kartézského součinu A x B. Používa n-tice.
-* Notace: <a,b> $\in$ R značíme také R(a,b) nebo a R b.
+* Notace: \<a,b> $\in$ R značíme také R(a,b) nebo a R b.
 * Můžeme si představit jako tabulku (i v prezentaci), kde řádky jsou jednotlivé n-tice.
 
 Funkce (zobrazení):
@@ -262,7 +262,7 @@ Např.: U - všichni lidi
 R(x) - x jsou členi univerza, třeba: jsou savci. PLATÍ!
 U - přirozená čísla bez nuly a jedničky
 R(x, y) - y je druhý prvek pro člen univerza, na y je aplikovaná funkce:
-f(y) - $x^{2}$
+f(y) - $x^\{2}$
 PLATÍ! Pro každý člen univerza existuje nějaký prvek, který není stejný jako x a je to jeho druhá mocnina.
 (další příklady sémantiky a modelů jsou v 6. prezentaci, 20. slide a dál nebo ve CV.)
 [Splnitelnost v logice - základy](#c-splnitelnost-formulí-tautologie-kontradikce-model) <br />
