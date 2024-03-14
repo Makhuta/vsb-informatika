@@ -118,6 +118,11 @@ const config = {
                             label: 'Programování v Java 1',
                             sidebarId: 'JAVAI',
                         },
+				        {
+                            type: 'docSidebar',
+                            label: 'Databázové systémy II',
+                            sidebarId: 'DSII',
+                        },
                     ],
                 },
                 {
