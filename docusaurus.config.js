@@ -123,6 +123,11 @@ const config = {
                             label: 'Databázové systémy II',
                             sidebarId: 'DSII',
                         },
+				        {
+                            type: 'docSidebar',
+                            label: 'Úvod do Teoretické Informatiky',
+                            sidebarId: 'UTI',
+                        },
                     ],
                 },
                 {
