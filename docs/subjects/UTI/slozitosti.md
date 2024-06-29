@@ -81,8 +81,8 @@ $$f\in \omega(n)$$
 pokud platí
 $$f\in \Theta(n)$$
 potom **zároveň** platí
+$$f\in O(n)$$
 $$f\in \Omega(n)$$
-$$f\in \Theta(n)$$
 V tomto případě potom **ale neplatí**
 $$f\in o(n)$$
 $$f\in \omega(n)$$
