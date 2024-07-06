@@ -7,11 +7,21 @@ const darkCodeTheme = themes.dracula;
 const math = require('remark-math');
 const katex = require('rehype-katex');
 
+const customConfig = {
+    organizationName: 'Makhuta',
+    dataProjectName: 'vsb-informatika-data',
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'VŠB Informatika',
     tagline: 'Database of the hardest/most needed subjects',
     favicon: 'img/logo.svg',
+    customFields: {
+        sourceURL: 'https://github.com/Makhuta',
+        rawSourceURL: 'https://raw.githubusercontent.com/Makhuta',
+        dataProjectName: 'vsb-informatika-data',
+    },
 
     // Set the production url of your site here
     url: 'https://makhuta.github.io',
@@ -176,4 +186,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = config, customConfig;
