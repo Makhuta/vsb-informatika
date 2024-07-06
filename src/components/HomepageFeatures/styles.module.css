@@ -17,8 +17,15 @@
 
 .slider {
   display: flex;
-  width: 100vw;
+  width: calc(100vw - 400px);
   transform-origin: center;
+}
+
+.widget {
+  display: flex;
+  width: 400px;
+  transform-origin: center;
+  margin-left: 25px;
 }
 
 .slide {
