@@ -5,7 +5,7 @@ import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 async function getDeadlines(filename, siteConfig) {
-  const page = `${siteConfig.customFields.rawSourceURL}/${siteConfig.customFields.dataProjectName}/main/deadlines/${filename}`;
+  const page = `${siteConfig.customFields.rawSourceURL}/${siteConfig.customFields.dataProjectName}/${siteConfig.customFields.dataBranch}/deadlines/${filename}`;
   const response = await fetch(page);
   const data = await response.json();
   return data;

@@ -21,6 +21,7 @@ const config = {
         sourceURL: 'https://github.com/Makhuta',
         rawSourceURL: 'https://raw.githubusercontent.com/Makhuta',
         dataProjectName: 'vsb-informatika-data',
+        dataBranch: 'main',
     },
 
     // Set the production url of your site here
