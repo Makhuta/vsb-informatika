@@ -139,6 +139,11 @@ const config = {
                             label: 'Úvod do Teoretické Informatiky',
                             sidebarId: 'UTI',
                         },
+                        {
+                            type: 'docSidebar',
+                            label: 'Jazyk anglický',
+                            sidebarId: 'ANJ'
+                        }
                     ],
                 },
                 {
